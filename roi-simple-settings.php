@@ -28,7 +28,7 @@ register_activation_hook( __FILE__,'roi_set_default_options');
 function roi_set_default_options() {
     
     $roi_default_options = array(
-            'roi_cut_off_date' => '31 December 1971',
+            'roi_cut_off_date' => '1 January 1970',
             'roi_image_url' => plugins_url( 'image_removed.png', __FILE__ ),
             'roi_match_1' => $_SERVER['HTTP_HOST'],
             'roi_match_2' => 'uploads',
